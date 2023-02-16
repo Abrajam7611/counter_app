@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
           title: const Text('Home Screen'),
           elevation: 10,
         ),
-        backgroundColor: Color.fromARGB(255, 0, 153, 255),
+        backgroundColor: const Color.fromARGB(255, 208, 173, 224),
         body: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
         )),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         floatingActionButton: FloatingActionButton(
-          backgroundColor: Color.fromARGB(255, 0, 0, 0),
+          backgroundColor: const Color.fromARGB(255, 115, 8, 177),
           foregroundColor: const Color.fromARGB(255, 255, 255, 255),
           onPressed: () {
             contador++;
